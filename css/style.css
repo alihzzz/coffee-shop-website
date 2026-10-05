@@ -203,3 +203,35 @@ footer a:hover {
         font-size: 32px;
     }
 }
+
+#menu-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #d9c3a5;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #2b1a10;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f3e6d6;
+}
+
+tr.highlight-row {
+    background-color: #c68b59;
+    color: white;
+}
